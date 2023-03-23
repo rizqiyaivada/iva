@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #E6E6FA;
+  color: #000111;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+#layoutlogo{
+  height: 250px;
+}
+
+.menu {
+  background-color: darkslategray;
+}
+
+.menu ul li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px 0px 10px 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.content {
+  background-color: white;
+}
+
+.content h2 {
+  font: bold 22px sans-serif;
+  margin-bottom: 10px;
+}
+
+.content a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.article {
+  width: 100%;
+  padding: 20px 0px 10px 0px;
+}
+
+.article p {
+  font: normal 15px/20px 'times new roman', serif;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.home{
+  width: 65%;
+  float: left;
+  /* border: 1px solid black; */
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  padding: 20px 15px 10px 20px;
+  /* border: 1px solid black; */
+}
+
+.sidebar ul {
+  margin-bottom: 20px;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+}
+
+
+.event{
+  padding-left: 25px;
+}
+
+.event ul li{
+  margin-bottom: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.gallery td{
+  padding-left: 10px;
+}
+
+.footer {
+  background-color: teal;
+  padding: 10px 0px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 620px ){
+  .container{
+    width: 100%;
+    margin: auto;
+  }
+
+  .home h2{
+    text-align: center;
+    color: black;
+  }
+
+  .sidebar{
+    float: none;
+    margin-top: 90px;
+    width: 60%;
+  }
+
+  .formm{
+    text-align: center;
+  }
+}
